@@ -1,1 +1,12 @@
-http://programando-ads.blogspot.com/2014/03/calcular-endereco-de-rede-e-endereco-de.html
+import os
+
+net = input("Entre com o endereço de rede -> ")
+net = net.split('.');
+print(net)
+
+a = '.'
+net = net[0]+a+net[1]+a+net[2]+a
+print(net)
+
+st1 = int(input("Entre com o primeiro numero -> "))
+en1 = int(input("Entre com ultimo numero -> "))
